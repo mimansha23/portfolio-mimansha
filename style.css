@@ -422,3 +422,14 @@ body::before {
     0% { transform: translate(-50%, -50%) scale(0.9); opacity: 0.5; }
     100% { transform: translate(-45%, -48%) scale(1.2); opacity: 1; }
 }
+.loader{
+    position:fixed;
+    inset:0;
+    backdrop-filter:blur(20px);
+    z-index:99999;
+}
+
+.loader.hide{
+    opacity:0;
+    transition:1s;
+}
