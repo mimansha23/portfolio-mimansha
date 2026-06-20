@@ -82,22 +82,3 @@ revealingTargets.forEach(target => {
     target.classList.add('reveal');
     displayObserver.observe(target);
 });
-const themes = [
-  "#ff6b6b",
-  "#4ecdc4",
-  "#6c63ff",
-  "#ff9f43",
-  "#00d2d3",
-  "#e056fd"
-];
-
-let currentTheme = 0;
-
-document.getElementById("theme-btn").addEventListener("click", () => {
-  currentTheme = (currentTheme + 1) % themes.length;
-
-  document.documentElement.style.setProperty(
-    "--primary-color",
-    themes[currentTheme]
-  );
-});
