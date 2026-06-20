@@ -1,4 +1,4 @@
-# Portfolio - [Mimansha]
+<!-- # Portfolio - [Mimansha]
 
 ## 👋 About Me
 I am a Computer Science & Information Technology student passionate about **[software development](ca://s?q=Software_development_skills)** and **[web technologies](ca://s?q=Web_technologies_skills)**.  
@@ -28,4 +28,4 @@ Currently focused on:
 - GitHub: [github.com/yourusername](ca://s?q=GitHub_profile_for_CS_student)
 
 ---
-Feel free to explore my projects and connect with me!
+Feel free to explore my projects and connect with me! -->
